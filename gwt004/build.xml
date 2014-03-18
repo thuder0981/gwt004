@@ -5,7 +5,7 @@
               directory with the processing instruction <?eclipse.ant.import?>
               as the first entry and export the buildfile again. --><project basedir="." default="build" name="gwt004">
     <property environment="env"/>
-    <property name="ECLIPSE_HOME" value="../../../../../Program Files/eclipse"/>
+    <property name="ECLIPSE_HOME" value="c:/Program Files/eclipse"/>
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.7"/>
     <property name="source" value="1.7"/>
