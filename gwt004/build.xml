@@ -1,0 +1,14 @@
+<project name="gwt004" basedir="." default="default">
+ 
+	<target name="default" depends="buildwar"></target>
+ 
+	<target name="buildwar">
+		<war basedir="war" destfile="gwt004.war" webxml="war/WEB-INF/web.xml">
+			<exclude name="WEB-INF/**" />
+			<webinf dir="war/WEB-INF/">
+				<include name="**/*.jar" />
+			</webinf>
+		</war>
+	</target>
+ 
+</project>
